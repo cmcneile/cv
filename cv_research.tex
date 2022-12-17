@@ -1,356 +1,69 @@
+\section{Current research plans}
 %%
-%% $Id: cv_research.tex,v 1.7 2012/11/23 08:48:29 cmcneile Exp cmcneile $
+%%  g-2
 %%
 
+The exciting experimental measurement of the anomalous magnetic
+moment of the muon ($a_\mu$) from the Fermilab Muon g-2  experiment,
+combined with the
+earlier result from BNL, raises the hope of a measurable failure of the
+standard model of particle physics.  However, a recent lattice QCD
+calculation of the leading hadronic order hadronic correction to
+$a_\mu$
+(\amu)
+from the BMW collaboration found better agree with experiment,
+thus motivating further improvements in the lattice QCD
+calculations. I have been working with the HPQCD, FNAL MILC
+collaboration to compute \amu.
 
-\section{Description of research}
+I am leading the effort in the HPQCD, FNAL lattice, MILC
+collaborations to compute the required disconnected diagrams and
+QCD+QED contributions to \amu. This calculation, combined with
+others, is a crucial component of the effort to reduce the error on \amu
+to under 0.5\%.
+The results on disconnected QCD contributions and connected
+QCD+quenched QED are being finalized with results at three lattice spacings.
 
-Lattice QCD calculations are a crucial part of the physics programs of
-both high and intermediate energy experiments at facilities such as:
-KEK, Fermilab, Jefferson Lab, BES, GSI, and the LHC.  
-The aim of many high energy experiments, such as the
-LHCb experiment and the soon 
-to start superB factory, is to 
-study the properties of quarks to look for
-evidence for physics beyond the standard model. However, the actual
-experiments only detect hadrons, so QCD must be ``solved'' to extract
-the properties of quarks. QCD is a strongly 
-coupled quantum field theory that has a number of potential novel
-bound states. The experimental search for these new bound states
-requires accurate solutions of the theory.
-
-
-The best way to compute non-perturbative
-quantities from QCD is to use lattice QCD.
-My research in lattice QCD is very strongly focused on phenomenology.
-I have worked in two general areas: the decay properties of mesons
-containing heavy quarks and lattice calculations of the properties of
-glueball and hybrid mesons. 
-
-\subsection{Overview of research goals}
-
-My long term research goals are:
-%%\begin{itemize}{labelitemi}{$\star$}
-
-\begin{itemize}
-\item Discovering the effects of physics beyond the standard model
-      using the results of precision lattice QCD calculations
-      and experimental data.
-
-\item Using lattice QCD to map out the mass spectrum
-      of charmed baryons.
-
-\item Using lattice QCD to predict the mass spectrum of 
-      exotic charmonium mesons.
-
-\item Using lattice QCD to identify glueball degrees of freedom
-      in hadron spectroscopy.
-
-\end{itemize}
-
-
-My long term research goals are important because
-of the following reasons.
-\begin{itemize}
-
-\item All my research is required for major
-      experiments in particle and nuclear physics.
-
-\item At this moment, the LHC has not provided direct
-      evidence for physics beyond the standard model
-      of particle physics, so indirect tests based
-      on flavour physics are crucial to determining the
-      energy scale that new physics exists at. If the LHC
-      does directly discover new particles, flavour
-      physics observables will help map out the theory.
-
-\item There was a lot of press coverage when the $\eta_b$ meson
-      was recently discovered, so I would expect that the experimental 
-      detection of exotic mesons, double charmed baryons, or
-      glueballs would also generate a lot of coverage in the
-      media.
-
-\end{itemize}
-
-Ultimately I would like to understand the structure of the 
-CKM matrix and the values of the 
-quark masses~\cite{McNeile:2010xe}.
+After the previous work has been finished, I will work on
+computing the disconnected QCD+QED contributions and the contribution
+of QED and QCD in the sea. I have been working on getting a HMC
+code, originally developed by the MILC collaboration, that includes
+the dynamics of QCD+QED in the sea, ready for production running.
+Other groups have found these contributions to be small, so the
+calculations will be challenging. 
 
 
 %%
-%% B physics
-%%
-
-\subsection{Flavour physics and lattice QCD}
-
-I am an expert in the research field: "lattice flavour physics".  The
-aim of this research is to determine CKM matrix elements and quark
-masses very precisely, and thus to hopefully find evidence for, or
-constraints on, physics beyond the standard model of particle physics.
-These calculations are crucial to the success of particle physics 
-experiments at the intensity frontier.
-
-\subsubsection{Research highlights in Particle Physics}
-
-
-
-Recently I have been working with the HPQCD collaboration on
-precision charm and bottom physics. 
-These projects have produced the most precise
-value of the QCD strong coupling from 
-any method~\cite{Davies:2008sw,McNeile:2010ji}. 
-The mass of the
-charm quark was computed with an accuracy of order 1\%, using
-a novel method based om computing moments of the pseudo-scalar
-correlator~\cite{McNeile:2010ji}. 
-By computing the ratio of the charm quark to strange quark 
-mass and exploiting the
-accurate calculation of the charm quark, we obtained a value
-for the strange quark mass accurate at 
-the 2\% level~\cite{Davies:2009ih}.
-
-
-With the HPQCD collaboration I have computed 
-the $f_{D_s}$ decay
-constant~\cite{arXiv:1008.4018}
-at smaller lattice spacings
-than HPQCD's original published result.
-The original HPQCD calculation of $f_{D_s}$
-disagreed with the experimental determination
-by CLEO-c, BaBar and Belle by $3.8\sigma$. 
-The new calculation of the $f_{D_s}$ decay
-constant is now 1.6$\sigma$ lower than
-the most recent experimental determinations.
-(The experimental numbers have changed more than the
-lattice numbers.)
-The theoretical calculation of $f_{D_s}$ can
-be used
-with experimental results to put constraints 
-on the properties of charged Higgs bosons
-(which the LHC may be able to directly discover).
-
-
-Lattice calculations with heavy quarks are hard because
-the systematic errors are of the order heavy quark mass times
-the lattice spacing to some power. The precision results obtained
-in the charm sector were obtained because of the use
-of the HISQ action, that has a reduced dependence on
-lattice artifacts. The existence of very fine lattices 
-generated by the MILC collaboration and the good properties of
-the HISQ lattice action motivated us to try to
-study the bottom quark on the lattice.
-We found that using the HISQ action with fine lattices,
-we could accurately compute: 
-$f_{B_s}$ decay constant~\cite{McNeile:2011ng}, 
-the mass and decay
-constant of the $B_c$ meson, and the mass of the bottom quark
-using the moments method~\cite{McNeile:2010ji}. 
-
-
-Lattice QCD calculations provide input to other 
-non-perturbative calculations, such as light cone
-sum results. I have computed the transverse
-decay constant of the $b_1$ and $J/\psi$ mesons
-for such applications~\cite{Jansen:2009hr,Jansen:2009yh,Dimopoulos:2008ee}. 
-This is part of a program
-to use lattice QCD to compute a wider set of 
-observables than the small set of weak matrix elements
-traditionally computed in lattice QCD calculations.
-
-In the past I have worked on a 
-number of 
-calculations~\cite{Bernard:2002pc,McNeile:2004wn} of
-the $f_{B}$ and $f_{B_s}$ decay constants, 
-because this is important for unitarity
-tests of the CKM matrix. The measurement of the leptonic decay 
-of the B meson is one of the key measurements of the superB factories.
-Recently with the HPQCD collaboration I have computed
-the $f_{B_s}$ decay constant~\cite{McNeile:2011ng}, 
-which is the key non-perturbative QCD 
-input to the decay $B_s \rightarrow \mu \mu$ decay.
-There was a lot of press coverage 
-(including the 
-BBC~\footnote{\url{http://www.bbc.co.uk/news/science-environment-20300100}},
-)
-when the LHCb experiment recently claimed a ``measurement''
-of this decay.
-
 
 %%
-%%  BMW staggered 
+%%  spectroscopy
 %%
-\subsubsection{Future research plans in Particle Physics}
 
-The BMW-c collaboration has generated a large number
-of unquenched gauge configurations, using the 2 HEX clover quark action,
-with a range of light pion masses 
-that go down to below the physical pion mass.
-I have been using these configurations as the basis
-of lattice QCD calculations that include the charm quark.
-This work is done in collaboration with a group at the
-University of Regensburg under a SFB grant, so I
-refer to those projects as SFB.
+Understanding the experimental X,Y, and Z mesons in terms of quark and
+glue degrees of freedom is still a hot topic. With a PhD student, Dr
+I have computed the mass of the $1^{-+}$ hybrid ($\overline{q}q$
+mesons with excited glue) meson in charmonium in the continuum limit
+for the first time. This extends the work on the precision study of
+the properties of charmonium by the HPQCD collaboration.
+The next step will be to include scattering states in the calculation.
+Another direction planned is to look at hybrids with bottom quarks,
+which is possible with the HISQ formulation 
 
-I have nearly finished a calculation of the mass of the 
-charm quark. As part of this calculation an 
-estimate of the $f_{Ds}$ decay will be produced.
-This will be followed
-by a lattice QCD calculation of 
-the semi-leptonic decays of the D and $D_s$ mesons.
+I will investigate a variety of machine learning algorithms
+focused on reducing the statistical errors on phenomenologically
+relevant quantities computed in lattice QCD calculations. For example,
+I will study symbolic regression, which can extract a fit model from
+data without human input, by cleverly searching the huge parameter
+space. I am currently investigating the use of Gaussian processes
+for continuum extrapolations.
 
-I am now particulary interested in calculations of quantities
-where there is some tension between the standard model
-predictions and experiment. For example, I have started
-a lattice QCD calculation of the leading order hadronic corrections
-to g-2, because this quantity is showing a deviation
-between experiment and theory, and so
-is an important constraint 
-on the energy scale of BSM physics. Althogh it is will be very challenging
-to obtain  errors below 1\%. Ultimately,
-this is also a warm up exercise for the calculating the even more 
-challenging light by light diagrams. I am the PI for
-the computer time on this project.
+The staggered fermion formalism is the only formalism that
+doesn't use multi-grid matrix inverters. A formalism has been developed
+and implemented in the open source QUDA library, but the algorithm has
+many parameters to tune. I will investigate the use of the
+hyper-parameter search techniques commonly used in deep learning to tune
+parameters of the multi-grid algorithm.
 
 
-The Soft Collinear Effective Theory (SCET)
-approach to studying B meson decays depends 
-on the inverse moment of the light cone wavefunction
-of the B meson ($\Lambda_B$), as well as other 
-parameters. Although lattice
-QCD has been used to compute the moments of the light cone
-wave functions of light mesons, there is no formalisim
-to compute inverse moments. I am thinking about the feasiblity
-of estimating ($\Lambda_B$) using lattice QCD, because
-SCET can be used for non-leptonic decays.
-There is a wide range of values for $\Lambda_B$.
-For example one analysis of the semileptonic decays
-of the B to $\pi$ meson
-(hep-ph/0504091) finds 
-$$
-\Lambda_B = 460 \pm 160 \; \mbox{MeV}
-$$
-but I have seen other values of $\Lambda_B$ outside the
-above range in the literature.
-
-A pragmatic way to proceed is to fit the branching ratio
-for a decay such $B \rightarrow \nu_l l \gamma$ 
-computed using lattice QCD
-to the SCET
-prediction (1110.3228). 
-The decay $B \rightarrow \nu_l l \gamma$ may be measured at the
-super B factories and could also be important for the experimental
-determination of the leptonic $B \rightarrow l \nu_l$ decay
-(0907.1845).
-
-
-
-\subsection{Hadronic physics and lattice QCD}
-
-
-The experimental detection of a hybrid meson or glueball degrees of
-freedom is the "holy grail" of hadron 
-spectroscopy.  A crucial component
-in the quest for evidence for effects of "dynamic glue"
- are robust non-perturbative calculations that solve QCD.  
-I am an international expert on lattice QCD calculations
-of hadron spectroscopy and I am regularly asked to review the field.
-
-
-\subsubsection{Research highlights in Nuclear Physics}
-
-I worked on
-one of the first calculations of the mass spectrum 
-of light and heavy exotic hybrid mesons,
-while I was in the MILC collaboration~\cite{Bernard:1997ib}. 
-At Liverpool I worked on the decay of the 
-hybrid potential~\cite{McNeile:2002az} and light
-exotic meson~\cite{McNeile:2006bz}.
-
-With Chris Michael I have developed and applied a technique to compute
-partial decay widths of mesons using lattice QCD.  We have computed 
-partial decay widths for the $\rho$ meson, static exotic meson, light
-$1^{-+}$ hybrid meson, $b_1$ meson and the flavour non-singlet $0^{++}$
-meson.
-
-
-At Liverpool, I worked on the
-mixing of glue and fermionic $0^{++}$ scalar operators using
-unquenched lattice QCD~\cite{McNeile:2001xx,Hart:2006ps}, 
-that is important to finding the contribution
-of glueball degrees of freedom to flavour singlet $0^{++}$ $f_0$ mesons.
-I recently worked on an unquenched lattice QCD calculation
-of the glueball spectrum~\cite{Richards:2010ck,Gregory:2012hu}.
-
-
-I have worked on the spectroscopy of heavy-light mesons,
-such as determining the mass of the 
-$D_s(2317)$ state~\cite{Dougall:2003hv},
-that had experimental properties that were unexpected.
-I worked on the first lattice QCD calculation
-of the OZI suppressed
-contributions to charmonium 
-mass spectroscopy~\cite{McNeile:2004wu}.
-
-
-I have worked on a number of lattice QCD calculations 
-of the masses of the $\eta$
-and $\eta'$ mesons from lattice QCD with 
-2~\cite{McNeile:2000hf} and 2+1~\cite{Gregory:2011sg} flavors of sea
-quarks. The flavour singlet pseudo-scalar mesons are harder to study
-on the lattice because the correlators are more noisy, so much higher
-statistics are required than for studies of flavour non-singlet
-mesons. I have been using the improved staggered fermion formalism to
-do these lattice calculations. The computation of the mass of the
-$\eta'$ meson is also regarded as a crucial theoretical test of the
-improved staggered formalism, that has been widely used in
-phenomenological studies. These papers also included a study
-of $\eta-\eta^\prime$ mixing, which is important to understand 
-decays involving the $\eta$ or $\eta^\prime$ meson.
-
-\subsubsection{Future research plans in Nuclear Physics}
-
-
-As part of the SFB project with charmed quarks I am computing the spectroscopy
-of charmed baryons. The widths of the charmed baryons are much smaller
-than those of light baryons, so this should make it easier to
-do precision lattice QCD calculations without using specialized
-techniques for resonances. There are a number of charmed baryons that 
-have not been discovered experimentally, such as the double and 
-triple charmed baryons, so lattice results are predictions.
-I am also looking at the parity
-partners of the charmed baryons, which have never been studied
-before using lattice QCD techniques.
-Some preliminary results for charmed baryons were presented at the 
-Quarkonium working group meeting
-in 2011. I would like to map out the spectrum of 
-charmed baryons as this could give insight to the more
-complicated light baryons.
-
-
-An important area for my research in hadron spectroscopy,
-is to compute the spectroscopy of charmed exotic
-mesons. The experimental detection of these states will be
-one of the main highlights of the PANDA experiment at FAIR,
-that is planned to start just after 2018. There are some
-preliminary results from the SFB project~\cite{Bali:2011dc},
-but I want to do the calculation with the 2 HEX clover configurations.
-
-
-As part of our recent work on 
-unquenched glueballs~\cite{Gregory:2012hu}
-I realized that
-there is a disagreement in the literature for masses of glueballs
-with exotic $J^{PC}$ quantum numbers from different groups.
-The problem is to do with the way continuum $J$ quantum number
-is assigned from lattice representations. In the continuum limit
-one group sees two glueballs with exotic $J^{PC}$, but another 
-claims to see none. One of the main goals of the PANDA experiment
-at GSI is search for exotic glueballs, so this issue must be clarified
-with an additional calculation.
-
-I would like to update the analysis of $\eta-\eta^\prime$ mixing
-to include the pseudo-scalar glueball. This is an unresolved issue,
-and is of interest to experimentalists working on the KLOE
-experiment in Italy and others.
 
 
