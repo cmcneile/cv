@@ -2,7 +2,6 @@
 *.log
 *.aux
 *.out
-*.pdf
 *.toc
 /src/*.aux
 *.nav
