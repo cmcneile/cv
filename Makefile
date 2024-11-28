@@ -6,3 +6,6 @@
 
 cv:
 	pdflatex cv.tex
+
+push:
+	git push -u origin main
